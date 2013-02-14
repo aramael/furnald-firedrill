@@ -11,6 +11,7 @@
     <!-- Le styles -->
     <link href="{% static "css/libraries/bootstrap/bootstrap.min.css" %}" rel="stylesheet" media="screen">
     <link href="{% static "css/carton.css" %}" rel="stylesheet" media="screen">
+    <link href="{% static "css/front_page.css" %}" rel="stylesheet" media="screen">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -21,11 +22,20 @@
 
 <body>
 
-<div class="container">
+<div id="fire-safety-sign">
+    <div class="sign">
+        <div class="header-text top">Furnald Hall has gone</div>
+        <div class="counter">
+            <span class="digit1">0</span>
+            <span class="digit2">0</span>
+            <span class="digit3">0</span>
+            <span class="digit4">1</span>
+        </div>
+        <div class="header-text bottom">days without a fire alarm</div>
+    </div>
+</div>
 
-
-
-</div> <!-- /container -->
+<div class="container message">Let's work together to set a new record!</div>
 
 <!-- Le javascript
 ================================================== -->

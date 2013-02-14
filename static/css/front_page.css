@@ -1,0 +1,59 @@
+#fire-safety-sign {
+    background: url('../img/fire_alarm_sign.svg') no-repeat, #f00;
+    background-position: 20px 20px, center;
+    height: 332px;
+    padding: 20px;
+    margin: 80px auto;
+    width: 900px;
+}
+
+#fire-safety-sign .sign {
+    background: #fff;
+    margin-left: 370px;
+    width: 510px;
+    height: 312px;
+    padding: 10px;
+
+}
+
+.header-text {
+    font-family: Helvetica,Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.header-text.top{
+    font-size: 39px;
+    line-height: 40px;
+    height: 40px;
+}
+
+.header-text.bottom{
+    font-size: 34px;
+    line-height: 35px;
+    height: 35px;
+}
+
+.counter {
+    margin: 24px 0;
+}
+
+.counter span {
+    border: 1px solid #000;
+    font-family: 'Carton', Helvetica, Arial, sans-serif;
+    font-size: 200px;
+    line-height: 200px;
+    margin-left: 5px;
+    height: 160px;
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 116px;
+    text-align: center;
+}
+
+.message {
+    color: #f00;
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+}

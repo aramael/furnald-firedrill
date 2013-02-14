@@ -40,10 +40,10 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     )
 
-ROOT_URLCONF = 'open_mike.urls'
+ROOT_URLCONF = 'furnald_firedrill.urls'
 
 # Python dotted path to the WSGI application used by Django's runserver.
-WSGI_APPLICATION = 'open_mike.wsgi.application'
+WSGI_APPLICATION = 'furnald_firedrill.wsgi.application'
 
 INSTALLED_APPS = (
     'django.contrib.auth',
