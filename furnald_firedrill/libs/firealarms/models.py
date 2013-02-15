@@ -7,3 +7,6 @@ class FireAlarm(models.Model):
 
     def __unicode__(self):
             return self.alarm_date.isoformat()
+
+    class Meta:
+        ordering = ['-alarm_date']
