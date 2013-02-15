@@ -56,6 +56,7 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
+    'furnald_firedrill.libs.firealarms',
     )
 
 # A sample logging configuration. The only tangible logging
