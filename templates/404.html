@@ -91,7 +91,20 @@
     </style>
 </head>
 <body id="error-page">
-<h1>Oops, that doesn't exist.</h1>
-<p>You've reached a page that either has never existed or has been deleted. Sorry for the inconvenience.</p>
+    <h1>Oops, that doesn't exist.</h1>
+    <p>You've reached a page that either has never existed or has been deleted. Sorry for the inconvenience.</p>
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7018181-10']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
 </body>
 </html>
